@@ -1,0 +1,10 @@
+[package]
+name = "iris-platform"
+version = "1.0.0"
+edition = "2021"
+authors = ["NovaOS Enterprise Architecture Team"]
+description = "Cross-platform video capture backend: Linux V4L2 (/dev/video*), macOS AVFoundation, Windows MediaFoundation, NovaOS Ring-3 IPC, and high-fidelity simulated sensors"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+iris-core = { path = "../iris-core" }

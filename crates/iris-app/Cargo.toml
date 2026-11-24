@@ -1,0 +1,16 @@
+[package]
+name = "iris-app"
+version = "1.0.0"
+edition = "2021"
+authors = ["NovaOS Enterprise Architecture Team"]
+description = "Sovereign desktop camera application, CLI photo/video capture tools, and automated qualification suite"
+license = "MIT OR Apache-2.0"
+
+[[bin]]
+name = "iris"
+path = "src/main.rs"
+
+[dependencies]
+iris-core = { path = "../iris-core" }
+iris-ui = { path = "../iris-ui" }
+iris-platform = { path = "../iris-platform" }

@@ -1,0 +1,9 @@
+[package]
+name = "iris-core"
+version = "1.0.0"
+edition = "2021"
+authors = ["NovaOS Enterprise Architecture Team"]
+description = "Core camera device enumeration, resolution negotiation, capture pipeline, and gallery manager for Iris Camera"
+license = "MIT OR Apache-2.0"
+
+[dependencies]

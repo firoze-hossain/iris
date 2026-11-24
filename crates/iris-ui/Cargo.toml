@@ -1,0 +1,10 @@
+[package]
+name = "iris-ui"
+version = "1.0.0"
+edition = "2021"
+authors = ["NovaOS Enterprise Architecture Team"]
+description = "2D software rasterization, viewfinder scaling, shutter buttons, and GNOME Snapshot-inspired UI for Iris Camera"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+iris-core = { path = "../iris-core" }
